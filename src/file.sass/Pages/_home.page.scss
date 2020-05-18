@@ -1,0 +1,90 @@
+// start section our
+.our {
+    // use var sass
+    padding: $p-y;
+    h1 {
+        margin-bottom: 0;
+        text-align: center;
+        // use var sass
+        padding: $py-between-el;
+        text-transform: $text-upper;
+    }
+    .icons {
+        ul {
+            margin-bottom: 0;
+            // use var sass
+            padding: $py-between-el !important;
+            li {
+                width: 60px;
+                height: 60px;
+                padding: 12px;
+                cursor: pointer;
+                margin: 10px 35px;
+                background-color: #fff;
+                color: rgb(25, 204, 189);
+                // use mixin sass 
+                @include browser(border-radius, 50%, o ms moz webkit);
+                @include browser(box-shadow, 0px 0px 6px -1px #2ba3ab, o ms moz webkit);
+                &.active {
+                    background-color: rgb(25, 204, 189);
+                }
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+    .views {
+        width: 100%;
+        display: none;
+        text-align: center;
+        &.active {
+            display: flex;
+        }        
+        .view {
+            // use var sass
+            padding: $py-between-el !important;
+            .phone {            
+                position: relative;
+                display: inline-block;
+                img {
+                    max-width: 100%;
+                    height: auto;
+                }
+                .item_view {
+                    top: 75px;
+                    left: 10px;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+    .text {
+        text-align: left;
+        margin-top: 55px;
+        // use var sass
+        padding: $py-between-el;
+        h3 {
+            margin-bottom: 0;
+            font-weight: 400; 
+            // use var sass
+            padding: $py-between-el;
+            text-transform: capitalize;
+        }
+        p {
+            color: $color-p;
+            margin-bottom: 0;
+            // use var sass
+            padding: $py-between-el;
+            padding-right: 165px;
+        }
+    }
+}
+// end section our

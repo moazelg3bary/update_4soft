@@ -63,4 +63,91 @@ header .pre-header .content_img img {
   max-width: 100%;
 }
 
+.our {
+  padding: 100px 0;
+}
+.our h1 {
+  margin-bottom: 0;
+  text-align: center;
+  padding: 30px 0;
+  text-transform: uppercase;
+}
+.our .icons ul {
+  margin-bottom: 0;
+  padding: 30px 0 !important;
+}
+.our .icons ul li {
+  width: 60px;
+  height: 60px;
+  padding: 12px;
+  cursor: pointer;
+  margin: 10px 35px;
+  background-color: #fff;
+  color: #19ccbd;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  -o-box-shadow: 0px 0px 6px -1px #2ba3ab;
+  -ms-box-shadow: 0px 0px 6px -1px #2ba3ab;
+  -moz-box-shadow: 0px 0px 6px -1px #2ba3ab;
+  -webkit-box-shadow: 0px 0px 6px -1px #2ba3ab;
+  box-shadow: 0px 0px 6px -1px #2ba3ab;
+}
+.our .icons ul li.active {
+  background-color: #19ccbd;
+}
+.our .icons ul li img {
+  max-width: 100%;
+  height: auto;
+}
+.our .views {
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+.our .views.active {
+  display: flex;
+}
+.our .views .view {
+  padding: 30px 0 !important;
+}
+.our .views .view .phone {
+  position: relative;
+  display: inline-block;
+}
+.our .views .view .phone img {
+  max-width: 100%;
+  height: auto;
+}
+.our .views .view .phone .item_view {
+  top: 75px;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.our .views .view .phone .item_view img {
+  max-width: 100%;
+  height: auto;
+}
+.our .text {
+  text-align: left;
+  margin-top: 55px;
+  padding: 30px 0;
+}
+.our .text h3 {
+  margin-bottom: 0;
+  font-weight: 400;
+  padding: 30px 0;
+  text-transform: capitalize;
+}
+.our .text p {
+  color: #555555;
+  margin-bottom: 0;
+  padding: 30px 0;
+  padding-right: 165px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -67,6 +67,82 @@ html(lang = 'en')
                 .content_img.shadow-sm
                   img(src="../image/web_servers.png", alt="")
       // end header
+      |
+      |
+      // start section OUR APPROACH
+      section.our
+        // container B4
+        .container
+          // grid system B4
+          .row
+            .col-sm-12
+              h1 OUR APPROACH
+            .col-sm-12.icons
+              // some class flexbox B4
+              ul.p-0.list-unstyled.d-flex.justify-content-center.flex-wrap
+                //- use custom attr-data
+                li.icons_li(data-src="../image/view-icon.svg", data-linkView="view", id="../image/view-icon.svg", data-src2="../image/view-g.svg")
+                  img(src="../image/view-g.svg", alt="view-icon")
+                li.icons_li(data-src="../image/cloud-icon.svg", data-linkView="cloud", id="../image/cloud-icon.svg", data-src2="../image/cloud-g.svg")
+                  img(src="../image/cloud-g.svg", alt="cloud-icon")
+                li.icons_li(data-src="../image/server-icon.svg", data-linkView="server", id="../image/server-icon.svg", data-src2="../image/server-g.svg")
+                  img(src="../image/server-g.svg", alt="server-icon")
+                li.icons_li(data-src="../image/websit-icon.svg", data-linkView="websit", id="../image/websit-icon.svg", data-src2="../image/websit-g.svg")
+                  img(src="../image/websit-g.svg", alt="websit-icon")
+                li.icons_li(data-src="../image/html-icon.svg", data-linkView="html", id="../image/html-icon.svg", data-src2="../image/html-g.svg")
+                  img(src="../image/html-g.svg", alt="html-icon")
+            // some class flexbox B4
+            .views.active.flex-wrap.justify-content-center#view
+              .col-sm-12.col-md-4
+                .view
+                  .phone
+                    img(src="../image/phone.png", alt="phone")
+                    .item_view: img(src="../image/view.svg", alt="view")
+              .col-sm-12.col-md-7.d-none.d-md-flex
+                .text
+                  h3 Real Time Progress Tracking 1
+                  p When the project starts we will provide you a preview link where you can see the progress made in real time.
+            .views.flex-wrap.justify-content-center#cloud
+              .col-sm-12.col-md-4
+                .view
+                  .phone
+                    img(src="../image/phone.png", alt="phone")
+                    .item_view: img(src="../image/cloud.svg", alt="view")
+              .col-sm-12.col-md-7.d-none.d-md-flex
+                .text
+                  h3 Real Time Progress Tracking 2
+                  p When the project starts we will provide you a preview link where you can see the progress made in real time.
+            .views.flex-wrap.justify-content-center#server
+              .col-sm-12.col-md-4
+                .view
+                  .phone
+                    img(src="../image/phone.png", alt="phone")
+                    .item_view: img(src="../image/server.svg", alt="view")
+              .col-sm-12.col-md-7.d-none.d-md-flex
+                .text
+                  h3 Real Time Progress Tracking 3
+                  p When the project starts we will provide you a preview link where you can see the progress made in real time.
+            .views.flex-wrap.justify-content-center#websit
+              .col-sm-12.col-md-4
+                .view
+                  .phone
+                    img(src="../image/phone.png", alt="phone")
+                    .item_view: img(src="../image/websit.svg", alt="view")
+              .col-sm-12.col-md-7.d-none.d-md-flex
+                .text
+                  h3 Real Time Progress Tracking 4
+                  p When the project starts we will provide you a preview link where you can see the progress made in real time.
+            .views.flex-wrap.justify-content-center#html
+              .col-sm-12.col-md-4
+                .view
+                  .phone
+                    img(src="../image/phone.png", alt="phone")
+                    .item_view: img(src="../image/html.svg", alt="view")
+              .col-sm-12.col-md-7.d-none.d-md-flex
+                .text
+                  h3 Real Time Progress Tracking 5
+                  p When the project starts we will provide you a preview link where you can see the progress made in real time.                                                                        
+      // end section OUR APPROACH
     block script-all
       script(src = '../file.js/popper.js')
       script(src = '../file.js/jquery-3.3.1.min.js')
