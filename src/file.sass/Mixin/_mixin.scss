@@ -6,7 +6,7 @@
   height: 100%;
 }
 
-@mixin prevfix($prop, $value, $all: ()) {
+@mixin browser($prop, $value, $all: ()) {
   @each $loop in $all {
     #{'-' + $loop + '-' + $prop}: $value;
   }

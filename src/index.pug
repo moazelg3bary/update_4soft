@@ -6,7 +6,7 @@ html(lang = 'en')
       meta(http-equiv = "X-UA-Compatible", content = "iE=edge")
       meta(name = "viewport" content = "width=device-width, initial-scale=1, shrink-to-fit=no")
       meta(name = "viewport" content = "width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
-      title Moppers HTML Tsemplate | Homepag
+      title 4soft
       link(rel = 'stylesheet', href = '../file.css/bootstrap.css')
       link(rel = 'stylesheet', href = '../file.css/bootstrap-editor.css')
       link(rel = 'stylesheet', href = '../file.css/all.css')
@@ -16,8 +16,57 @@ html(lang = 'en')
        script(src = '../file.js/respond.min.js')
       <![endif]-->
   body
-    block Content_page
-      
+    block Header
+      // start header
+      header
+        // use nvabar B4
+        nav(class="navbar navbar-expand-lg navbar-light")
+          // container B4
+          .container        
+            <!-- Image and text -->
+            a(class="navbar-brand" href="#")
+              img(src="../image/4soft-2.png" width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy")
+              | 4soft
+            button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation")
+              span(class="navbar-toggler-icon")
+
+            div(class="collapse navbar-collapse" id="navbarSupportedContent")
+              ul(class="navbar-nav ml-auto")
+                li(class="nav-item")
+                  a(class="nav-link" href="#") About Us
+                    span(class="sr-only") (current)
+                li(class="nav-item")
+                  a(class="nav-link" href="#") Product 
+                li(class="nav-item")
+                  a(class="nav-link" href="#") Technology  
+                li(class="nav-item")
+                  a(class="nav-link" href="#") FAQs  
+                li(class="nav-item")
+                  a(class="nav-link" href="#") Portfolio  
+                li(class="nav-item dropdown")
+                  a(class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"): i.fas.fa-ellipsis-h 
+                  div(class="dropdown-menu" aria-labelledby="navbarDropdown")
+                    a(class="dropdown-item" href="#") Action
+                    a(class="dropdown-item" href="#") Another action
+                    div(class="dropdown-divider")
+                    a(class="dropdown-item" href="#") Something else here
+                li(class="nav-item shadow-sm")
+                  a(class="nav-link" href="#") Get Start
+        .pre-header          
+          // container B4
+          .container 
+            // grid system B4
+            .row
+              .col-12.col-12.col-md-6.d-flex.align-items-center.py-5
+                .text
+                  h3 WEB SOFTWARE & NATIVE APPS
+                  h1 BUILT WITHOUT CODE
+                  p We use latest no-code development technology to build startups and products up to 5 times faster and less costly. 
+                  button.btn.bg-btn TELL ME MORE
+              .col-12.col-12.col-md-6.py-5
+                .content_img.shadow-sm
+                  img(src="../image/web_servers.png", alt="")
+      // end header
     block script-all
       script(src = '../file.js/popper.js')
       script(src = '../file.js/jquery-3.3.1.min.js')

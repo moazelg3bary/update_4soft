@@ -1,10 +1,66 @@
-/*Start Variables Media Query*/
-/*End Variables Media Query*/
 /*Start Variables Colors Pages*/
 /*End Variables Colors Pages*/
-/*Start Variables Float Diraction*/
-/*End Variables Float Diraction*/
 /*Start Variables Helprs*/
 /*Start Variables Helprs*/
+body {
+  height: 10000px;
+}
+
+.bg-btn {
+  background: linear-gradient(left, #6c3694 0%, #40bdcf 100%);
+  background: -o-linear-gradient(left, #6c3694 0%, #40bdcf 100%);
+  background: -ms-linear-gradient(left, #6c3694 0%, #40bdcf 100%);
+  background: -moz-linear-gradient(left, #6c3694 0%, #40bdcf 100%);
+  background: -webkit-linear-gradient(left, #6c3694 0%, #40bdcf 100%);
+}
+
+header {
+  position: relative;
+  background: url("../../../dist/image/background_1.jpg");
+  background-size: cover;
+}
+header .pre-header {
+  padding: 100px 0;
+}
+header .pre-header .text h1, header .pre-header .text h3, header .pre-header .text p {
+  margin-bottom: 15px;
+}
+header .pre-header .text h1, header .pre-header .text h3 {
+  text-transform: uppercase;
+}
+header .pre-header .text h3 {
+  font-weight: 400;
+}
+header .pre-header .text h1 {
+  font-weight: 700;
+}
+header .pre-header .text p {
+  color: #555555;
+  text-transform: capitalize;
+}
+header .pre-header .text button {
+  border: none;
+  color: #fff;
+  margin-top: 15px;
+  padding: 10px 35px;
+  text-transform: uppercase;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+header .pre-header .content_img {
+  overflow: hidden;
+  -o-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+header .pre-header .content_img img {
+  height: auto;
+  max-width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

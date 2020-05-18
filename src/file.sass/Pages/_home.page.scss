@@ -1,1 +1,47 @@
-
+header {
+    position: relative;
+    background: url("../../../dist/image/background_1.jpg");
+    background-size: cover;
+    .pre-header {
+        // use var sass
+        padding: $p-y;
+        .text {
+            h1, h3, p {
+                margin-bottom: 15px;
+            }
+            h1, h3 {
+                // use var sass
+                text-transform: $text-upper;
+            }
+            h3 {
+                font-weight: 400;
+            }
+            h1 {
+                font-weight: 700;
+            }
+            p {
+                color: $color-p;
+                text-transform: capitalize;
+            }
+            button {
+                border: none;
+                color: #fff;
+                margin-top: 15px;
+                padding: 10px 35px;
+                // use var sass
+                text-transform: $text-upper;
+                // use mixin sass
+                @include browser(border-radius, 20px, o ms moz webkit);
+            }
+        }
+        .content_img {
+            overflow: hidden;
+            // use mixin sass
+            @include browser(border-radius, 20px, o ms moz webkit);
+            img {
+                height: auto;
+                max-width: 100%;
+            }
+        }
+    }
+}
