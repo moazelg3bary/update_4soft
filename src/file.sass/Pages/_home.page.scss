@@ -88,3 +88,53 @@
     }
 }
 // end section our
+
+// start w-saying
+.w-saying {
+    // use var sass
+    padding: $p-y;
+    background: url("../../../dist/image/background_2.png");
+    background-size: cover; 
+    h1 {
+        padding: 30px 0;
+        margin-bottom: 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .box_say {
+        background: red;
+        position: relative;
+        text-align: center;
+        background-color: #fff;
+        padding: 75px 50px 15px 50px;
+        // use mixin sass
+        @include browser(border-radius, 15px, o ms moz webkit);
+        img {
+            left: 50%;
+            top: -50px;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            // use mixin sass
+            @include browser(transform, translateX(-50%), o ms moz webkit);
+        }
+        a {
+            padding: 0 15px;
+            display: inline-block;
+            text-decoration: none;
+        }
+        p {
+            // use var sass
+            color: $color-p;
+        }
+        span {
+            margin: 30px 0;
+            display: inline-block;
+            color: rgb(255, 215, 0);
+            i {
+                margin: 0 10px;
+            }
+        }
+    }
+}
+// end w-saying

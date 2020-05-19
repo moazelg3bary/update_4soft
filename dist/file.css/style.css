@@ -150,4 +150,56 @@ header .pre-header .content_img img {
   padding-right: 165px;
 }
 
+.w-saying {
+  padding: 100px 0;
+  background: url("../../../dist/image/background_2.png");
+  background-size: cover;
+}
+.w-saying h1 {
+  padding: 30px 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.w-saying .box_say {
+  background: red;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  padding: 75px 50px 15px 50px;
+  -o-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+}
+.w-saying .box_say img {
+  left: 50%;
+  top: -50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  -o-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.w-saying .box_say a {
+  padding: 0 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+.w-saying .box_say p {
+  color: #555555;
+}
+.w-saying .box_say span {
+  margin: 30px 0;
+  display: inline-block;
+  color: gold;
+}
+.w-saying .box_say span i {
+  margin: 0 10px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -34,3 +34,22 @@
     right: 0;
 }
 /* end edit navbar */
+
+/* start edit carousel */
+
+.carousel-inner {
+    overflow: visible;
+}
+.carousel-control-prev span, .carousel-control-next span {
+    color: #555794;
+    font-size: 45px;
+}
+.carousel-control-prev {
+    left: -45px;
+    width: auto;
+}
+.carousel-control-next {
+    right: -45px;
+    width: auto;
+}
+/* end edit carousel */
