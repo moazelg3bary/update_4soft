@@ -138,3 +138,68 @@
     }
 }
 // end w-saying
+
+// start section our wark
+.our-work {
+    // use var sass
+    padding: $p-y;
+    background: url("../../../dist/image/background_3.jpg");
+    background-size: cover;     
+    h1 {
+        padding: 30px 0;
+        margin-bottom: 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .box_list {
+        position: relative;
+        ul {
+            width: 55%;
+            height: 600px;
+            display: inline-block;
+            padding: 110px !important;
+            // use micin sass
+            @include browser(border-radius, 50%, o ms moz webkit);
+            background-image: -webkit-linear-gradient(top, rgb(84, 229, 208) 0%,  rgb(70, 197, 223) 100%);
+            li {
+                color: #fff;
+                font-size: 20px;
+                font-weight: 500;
+                margin: 0 0 15px 0;
+            }
+        }
+        .view {
+            top: 30px;
+            right: 0;
+            width: 75%;
+            padding: 25px;
+            position: absolute;
+            background-color: #fff;
+            @include browser(box-shadow, 0px 0px 11px 4px #85858569, o ms moz webkit);
+            .box-img {
+                img {
+                    height: auto;
+                    max-width: 100%;
+                }
+            }
+            .text {
+                top: 0;
+                right: 0;
+                height: 100%;
+                position: absolute;
+                padding: 25px 25px 25px 500px;
+                p {
+                    // use var sass
+                    color: $color-p;
+                }
+                span {
+                    right: 25px;
+                    bottom: 25px;
+                    font-weight: 500;
+                    position: absolute;
+                }
+            }
+        }
+    }
+}
+// end section our wark

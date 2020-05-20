@@ -202,4 +202,117 @@ header .pre-header .content_img img {
   margin: 0 10px;
 }
 
+.our-work {
+  padding: 100px 0;
+  background: url("../../../dist/image/background_3.jpg");
+  background-size: cover;
+}
+.our-work h1 {
+  padding: 30px 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.our-work .box_list {
+  position: relative;
+}
+.our-work .box_list ul {
+  width: 55%;
+  height: 600px;
+  display: inline-block;
+  padding: 110px !important;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background-image: -webkit-linear-gradient(top, #54e5d0 0%, #46c5df 100%);
+}
+.our-work .box_list ul li {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0 0 15px 0;
+}
+.our-work .box_list .view {
+  top: 30px;
+  right: 0;
+  width: 75%;
+  padding: 25px;
+  position: absolute;
+  background-color: #fff;
+  -o-box-shadow: 0px 0px 11px 4px #85858569;
+  -ms-box-shadow: 0px 0px 11px 4px #85858569;
+  -moz-box-shadow: 0px 0px 11px 4px #85858569;
+  -webkit-box-shadow: 0px 0px 11px 4px #85858569;
+  box-shadow: 0px 0px 11px 4px #85858569;
+}
+.our-work .box_list .view .box-img img {
+  height: auto;
+  max-width: 100%;
+}
+.our-work .box_list .view .text {
+  top: 0;
+  right: 0;
+  height: 100%;
+  position: absolute;
+  padding: 25px 25px 25px 500px;
+}
+.our-work .box_list .view .text p {
+  color: #555555;
+}
+.our-work .box_list .view .text span {
+  right: 25px;
+  bottom: 25px;
+  font-weight: 500;
+  position: absolute;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .our-work .box_list ul {
+    width: 60%;
+    height: 535px;
+  }
+  .our-work .box_list ul li {
+    margin: 0 0 15px 0px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .our-work .box_list ul {
+    width: 100%;
+    height: 640px;
+  }
+
+  .our-work .box_list .view {
+    top: 65%;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .our-work .box_list ul {
+    width: 100%;
+    padding: 80px !important;
+    height: auto;
+    border-radius: 20%;
+  }
+
+  .our-work .box_list .view {
+    top: 80%;
+    width: 100%;
+  }
+
+  .our-work .box_list .view .text {
+    position: static;
+    padding: 0;
+    margin-top: 15px;
+    text-align: right;
+  }
+  .our-work .box_list .view .text p {
+    text-align: left;
+  }
+  .our-work .box_list .view .text span {
+    position: static;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
