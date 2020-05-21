@@ -547,6 +547,41 @@ html(lang = 'en')
                   div(class="form-group col-sm-4 d-block mx-auto")
                     input(type="submit" class="form-control bg-btn text-white text-uppercase" placeholder="What's your email?")
       // end section type project
+      |
+      |
+      // start section footer
+      footer
+        section.subscribe
+          .container
+            .row.text-center.text-white
+              .col-sm-12.mt-5
+                h4.font-weight-bolder Subscribe to our newsletter.
+              .col-sm-12.mb-3
+                span.font-weight-light We'll send you occasional but very useful tips about building products and startup without a single line of code
+              .col-sm-12.col-md-2
+              .col-sm-12.col-md-5.email.text-center.text-md-right.my-2
+                form
+                  input(type="email", name="" placeholder="What's your email?")
+              .col-sm-12.col-md-4.sub.text-center.text-md-left.my-2
+                form
+                  input(type="button", value="subscribe")
+              .col-sm-12.col-md-1
+        .pre-footer
+          .container
+            .row
+              .col-sm-12.col-md-6.my-2.offices.text-md-left.text-center
+                ul.list-unstyled.p-0.d-flex.justify-content-center.justify-content-md-start
+                  li: i.fas.fa-globe-africa
+                  li Our Offices:
+                  li USA 
+                  li UK
+                span 2035 Sunset Lake RoadSuite B-2, Newark, DE 19702
+              .col-sm-12.col-md-6.my-2.media.justify-content-md-end.justify-content-center
+                ul.list-unstyled.p-0.d-flex
+                  li: i.fab.fa-facebook
+                  li: i.fab.fa-linkedin
+                  li: i.fab.fa-twitter-square
+      // end scetion footer
     .over-lay
     block script-all
       script(src = '../file.js/popper.js')

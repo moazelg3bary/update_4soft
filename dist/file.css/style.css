@@ -4,7 +4,6 @@
 /*Start Variables Helprs*/
 body {
   position: relative;
-  height: 100000px;
 }
 body .over-lay {
   top: 0;
@@ -540,6 +539,52 @@ header .pre-header .content_img img {
   -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px;
+}
+
+footer .subscribe {
+  padding: 100px 0;
+  background: url("../../../dist/image/background_5.jpg");
+  background-size: cover;
+}
+footer .subscribe .email form input {
+  width: 65%;
+  padding: 10px 8px;
+  border-radius: 25px;
+  background-color: transparent;
+  border: 1px solid #a1f5e6;
+}
+footer .subscribe .email form input::placeholder {
+  color: #fff;
+}
+footer .subscribe .sub form input {
+  border: none;
+  font-weight: 500;
+  padding: 10px 33px;
+  border-radius: 25px;
+  background: none rgba(227, 255, 250, 0.8);
+}
+footer .pre-footer {
+  color: #fff;
+  background-color: #318fb4;
+}
+footer .pre-footer .offices ul li:not(:last-of-type) {
+  margin-right: 10px;
+}
+footer .pre-footer .offices ul li:nth-of-type(2) {
+  font-weight: 600;
+}
+footer .pre-footer .offices ul li:nth-of-type(3), footer .pre-footer .offices ul li:last-of-type {
+  border-bottom: 1px solid;
+}
+footer .pre-footer .offices span {
+  font-weight: 100;
+  margin-left: 25px;
+  font-size: smaller;
+  color: #a1f5e6;
+}
+footer .pre-footer .media ul li {
+  margin-right: 10px;
+  font-size: xx-large;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
