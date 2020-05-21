@@ -1,10 +1,10 @@
 // start footer
 footer {
     .subscribe {
-        // use var sass
-        padding: $p-y;
-        background: url("../../../dist/image/background_5.jpg");
-        background-size: cover; 
+            // use var sass
+            padding: $p-y;
+            background: url("../../../dist/image/background_5.jpg");
+            background-size: cover; 
         .email form input {
             width: 65%;
             padding: 10px 8px;
@@ -25,6 +25,7 @@ footer {
     }
     .pre-footer {
         color: #fff;
+        padding: 20px 0px;
         background-color: rgb(49, 143, 180);
         .offices {
             ul {

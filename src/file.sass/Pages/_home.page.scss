@@ -165,6 +165,13 @@
                 font-size: 20px;
                 font-weight: 500;
                 margin: 0 0 15px 0;
+                &.active span {
+                    font-size: 27px;
+                }
+                span {
+                    transition: all .5s linear;
+                    vertical-align: middle;
+                }
             }
         }
         .view {
@@ -172,9 +179,13 @@
             right: 0;
             width: 75%;
             padding: 25px;
+            display: none;
             position: absolute;
             background-color: #fff;
             @include browser(box-shadow, 0px 0px 11px 4px #85858569, o ms moz webkit);
+            &.active {
+                display: block;
+            }
             .box-img {
                 img {
                     height: auto;
