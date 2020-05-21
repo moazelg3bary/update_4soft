@@ -162,7 +162,6 @@ header .pre-header .content_img img {
   text-transform: uppercase;
 }
 .w-saying .box_say {
-  background: red;
   position: relative;
   text-align: center;
   background-color: #fff;
@@ -268,6 +267,80 @@ header .pre-header .content_img img {
   position: absolute;
 }
 
+.team {
+  padding: 100px 0;
+  background-color: #eff4f8;
+}
+.team h1 {
+  padding: 30px 0;
+  margin-bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.team .career h2 {
+  position: relative;
+  font-size: 60px;
+  font-weight: 900;
+  color: rgba(203, 234, 242, 0.69);
+}
+.team .career h2 span {
+  top: 24px;
+  left: 44px;
+  font-weight: 400;
+  position: absolute;
+  font-size: x-large;
+  padding-bottom: 8px;
+  border-bottom: 1px solid;
+  color: #00527f;
+}
+.team .box_team {
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.team .box_team:hover .box_text h6, .team .box_team:hover .box_text span {
+  display: none;
+}
+.team .box_team:hover .box_text p {
+  display: block;
+}
+.team .box_team:hover .box_img {
+  width: 100px;
+  height: 100px;
+}
+.team .box_team .box_img {
+  width: 175px;
+  height: 175px;
+  overflow: hidden;
+  margin: 0 auto 15px auto;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+.team .box_team .box_img img {
+  max-width: 100%;
+  height: auto;
+}
+.team .box_team .box_text h6 {
+  font-weight: 600;
+  font-size: larger;
+}
+.team .box_team .box_text span {
+  width: 195px;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 5px 20px;
+  display: inline-block;
+  color: #00527f;
+}
+.team .box_team .box_text p {
+  display: none;
+  color: #555555;
+  padding: 5px 15px;
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   .our-work .box_list ul {
     width: 60%;
@@ -286,6 +359,10 @@ header .pre-header .content_img img {
   .our-work .box_list .view {
     top: 65%;
     width: 100%;
+  }
+
+  .team {
+    padding: 270px 0 100px 0;
   }
 }
 @media (max-width: 768px) {
@@ -312,6 +389,18 @@ header .pre-header .content_img img {
   }
   .our-work .box_list .view .text span {
     position: static;
+  }
+
+  .team {
+    padding: 530px 0 100px 0;
+  }
+  .team .career h2 {
+    text-align: center;
+  }
+  .team .career h2 span {
+    position: static;
+    font-size: large;
+    padding-bottom: 0px;
   }
 }
 
