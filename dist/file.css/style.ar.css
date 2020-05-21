@@ -31,3 +31,100 @@
     padding-right: 0;
 } */
 
+/* start navbar ar */
+.navbar-light ul {
+    margin-left: 0 !important;
+    margin-right: auto;
+}
+.nav-item:last-of-type {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.navbar-nav .dropdown-menu {
+    left: 0;
+    right: auto;
+}
+/* end navbar ar */
+
+/* start our ar */
+.our .text p {
+    padding-right: 0;
+    padding-left: 165px;
+}
+/* end our ar */
+
+/* start our-work ar */
+.our-work .box_list .view_2 {
+    left: 0;
+    right: auto;
+}
+.our-work .box_list .view_2 .text {
+    right: auto;
+    left: 0;
+    padding: 25px 500px 25px 25px;
+}
+.our-work .box_list .view_2 .text span {
+    left: 25px;
+    right: auto;
+}
+/* end our-work ar */
+
+/* start team ar */
+.team .career h2 span {
+    right: 44px;
+    left: 0;
+}
+.form-check {
+    padding-left: 0;
+    padding-right: 1.25rem;
+}
+.form-check-input {
+    margin-left: 0 !important;
+    margin-right: -1.25rem;
+}
+/* start team ar */
+
+/* start pre-footer ar */
+.pre-footer .offices  {
+    text-align: right !important;
+}
+.pre-footer .offices  ul {
+    justify-content: flex-end !important;
+}
+
+.pre-footer .media   {
+    text-align: right !important;
+    justify-content: flex-start !important;
+}
+footer .pre-footer .offices ul li:not(:last-of-type)  {
+    margin-left: 10px;
+    margin-right: 0;
+}
+/* start pre-footer ar */
+
+@media (max-width: 768px) {
+    /* start our-work media query ar */
+    .our-work .box_list .view_2 .text {
+        text-align: left;
+        padding: 0 !important;
+    }
+    .our-work .box_list .view_2 .text p {
+        text-align: right;
+    }
+    /* end our-work media query ar */
+
+    /* start pre-footer media query ar */
+    .pre-footer .offices  {
+        text-align: center !important;
+    }
+    .pre-footer .offices  ul {
+        justify-content: center!important;
+    }
+
+    .pre-footer .media   {
+        text-align: center !important;
+        justify-content: center !important;
+    }
+    /* end pre-footer media query ar */
+}
+

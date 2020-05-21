@@ -615,7 +615,7 @@ footer .pre-footer .media ul li {
     height: 640px;
   }
 
-  .our-work .box_list .view {
+  .our-work .box_list .view_2 {
     top: 65%;
     width: 100%;
   }
@@ -645,21 +645,21 @@ footer .pre-footer .media ul li {
     border-radius: 20%;
   }
 
-  .our-work .box_list .view {
+  .our-work .box_list .view_2 {
     top: 80%;
     width: 100%;
   }
 
-  .our-work .box_list .view .text {
+  .our-work .box_list .view_2 .text {
     position: static;
     padding: 0;
     margin-top: 15px;
     text-align: right;
   }
-  .our-work .box_list .view .text p {
+  .our-work .box_list .view_2 .text p {
     text-align: left;
   }
-  .our-work .box_list .view .text span {
+  .our-work .box_list .view_2 .text span {
     position: static;
   }
 
