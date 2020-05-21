@@ -87,6 +87,10 @@
         }
     }
     // end section team
+    .navbar-expand-lg > .container, .navbar-expand-lg > .container-fluid {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
 }
 // end media query from 0 to 768px
 

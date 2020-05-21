@@ -163,18 +163,19 @@
             li {
                 color: #fff;
                 font-size: 20px;
+                cursor: pointer;
                 font-weight: 500;
                 margin: 0 0 15px 0;
                 &.active span {
                     font-size: 27px;
                 }
                 span {
-                    transition: all .5s linear;
+                    transition: all .3s linear;
                     vertical-align: middle;
                 }
             }
         }
-        .view {
+        .view_2 {
             top: 30px;
             right: 0;
             width: 75%;

@@ -122,38 +122,34 @@ window.onload = function () {
       document.getElementById(li[i].getAttribute('data-linkView')).classList.add('active')
     }
   }
-}
-
-window.onload = function () {
-  'use strict';
 
   // get class our_li
-  var li = document.getElementsByClassName('our_li');
-  for (let i = 0; i < li.length; i++) {
+  var li_our = document.getElementsByClassName('our_li');
+  for (let i = 0; i < li_our.length; i++) {
 
     // when click run function
-    li[i].onclick = (e) => {
+    li_our[i].onclick = (e) => {
       // get class our_li
-      var rm_class = document.getElementsByClassName('our_li');
-      for (let i = 0; i < rm_class.length; i++) {
+      var rm_2_class = document.getElementsByClassName('our_li');
+      for (let i = 0; i < rm_2_class.length; i++) {
 
         // remove class active form all class our_li
-        rm_class[i].classList.remove('active')
+        rm_2_class[i].classList.remove('active')
       }
 
       // when click fun run and add class('active')
-      li[i].classList.add('active')
+      li_our[i].classList.add('active')
 
       // get class view
-      let view_data = document.getElementsByClassName('view');
-      for (let i = 0; i < view_data.length; i++) {
+      let view_data_2 = document.getElementsByClassName('view_2');
+      for (let i = 0; i < view_data_2.length; i++) {
 
         // remove class active fron class views
-        view_data[i].classList.remove('active')
+        view_data_2[i].classList.remove('active')
       }
 
       // when click el === attr data-target will add class active
-      document.getElementById(li[i].getAttribute('data-target')).classList.add('active')
+      document.getElementById(li_our[i].getAttribute('data-target')).classList.add('active')
     }
-  }
+  }  
 }
