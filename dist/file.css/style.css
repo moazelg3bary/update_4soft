@@ -278,9 +278,9 @@ header .pre-header .content_img img {
   text-transform: uppercase;
 }
 .team .career h2 {
-  position: relative;
   font-size: 60px;
   font-weight: 900;
+  position: relative;
   color: rgba(203, 234, 242, 0.69);
 }
 .team .career h2 span {
@@ -294,9 +294,9 @@ header .pre-header .content_img img {
   color: #00527f;
 }
 .team .box_team {
+  cursor: pointer;
   position: relative;
   text-align: center;
-  cursor: pointer;
 }
 .team .box_team:hover .box_text h6, .team .box_team:hover .box_text span {
   display: none;

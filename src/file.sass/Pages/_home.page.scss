@@ -215,9 +215,9 @@
         text-transform: uppercase;
     }
     .career h2 {
-        position: relative;
         font-size: 60px;
         font-weight: 900;
+        position: relative;
         color: rgba(203, 234, 242, 0.69);
         span {
             top: 24px;
@@ -231,9 +231,9 @@
         }
     }    
     .box_team {
+        cursor: pointer;
         position: relative;
         text-align: center;
-        cursor: pointer;
         &:hover {
             .box_text h6, .box_text span {
                 display: none;
@@ -251,6 +251,7 @@
                 height: 175px;
                 overflow: hidden;
                 margin: 0 auto 15px auto;
+                // use mixin sass
                 @include browser(border-radius, 50%, o ms moz webkit);
             img {
                 max-width: 100%;
@@ -272,6 +273,7 @@
             }
             p {
                 display: none;
+                // use var sass
                 color: $color-p;
                 padding: 5px 15px
             }
