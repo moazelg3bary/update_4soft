@@ -456,7 +456,18 @@ html(lang = 'en')
                 |
                 a(class="carousel-control-next d-none d-sm-flex" href="#carouselExampleFade_2" role="button" data-slide="next")
                   span: i.fas.fa-chevron-right
-                  span(class="sr-only") Next              
+                  span(class="sr-only") Next
+            .col-sm-12.col-md-12.col-lg-4.d-flex.justify-content-center.align-items-center.bg-white.py-4
+              .featured.my-lg-5
+                h2 Featured on
+            .col-sm-12.col-md-12.col-lg-4.bg-white.py-4
+              .tc.d-flex.d-flex.justify-content-center.align-items-center.d-lg-block.my-lg-5
+                span: img(src="../image/tc.svg", alt="alt")
+                h6 Techcrunch
+            .col-sm-12.col-md-12.col-lg-4.bg-white.py-4
+              .p.d-flex.d-flex.justify-content-center.align-items-center.d-lg-block.my-lg-5
+                span: img(src="../image/p.svg", alt="alt")
+                h6 Product Hunt 
       // end section  team
     block script-all
       script(src = '../file.js/popper.js')

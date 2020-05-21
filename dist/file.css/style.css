@@ -340,6 +340,26 @@ header .pre-header .content_img img {
   color: #555555;
   padding: 5px 15px;
 }
+.team .tc, .team .p {
+  position: relative;
+}
+.team .tc h6, .team .p h6 {
+  top: 36px;
+  left: 87px;
+  font-weight: 400;
+  color: #00527f;
+  font-size: 1.5rem;
+  position: absolute;
+}
+.team .tc span, .team .p span {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.team .tc span img, .team .p span img {
+  width: 100%;
+  height: 100%;
+}
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .our-work .box_list ul {
@@ -363,6 +383,14 @@ header .pre-header .content_img img {
 
   .team {
     padding: 270px 0 100px 0;
+  }
+}
+@media (max-width: 991px) {
+  .team {
+    padding: 270px 0 100px 0;
+  }
+  .team .tc h6, .team .p h6 {
+    position: static;
   }
 }
 @media (max-width: 768px) {

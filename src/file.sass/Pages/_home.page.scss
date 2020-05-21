@@ -279,5 +279,25 @@
             }
         }
     }
+    .tc, .p{
+        position: relative;
+        h6 {
+            top: 36px;
+            left: 87px;
+            font-weight: 400;
+            color: #00527f;
+            font-size: 1.5rem;
+            position: absolute;
+        }
+        span {
+            width: 100px;
+            height: 100px;
+            display: block;
+            img {
+                width: 100%;
+                height: 100%;
+            }            
+        }
+    }
 }
 // end team

@@ -11,7 +11,7 @@
 }
 // end media query from 992px to 1199px
 
-// start media query from 992 to 1199px
+// start media query from 768px to 992px
 @media (min-width: 768px) and (max-width: 992px) {
     .our-work .box_list ul {
             width: 100%;
@@ -26,6 +26,17 @@
     }
 }
 // end media query from 768px to 992px
+
+// start media query from 0 to 991px
+@media (max-width: 991px) {
+    .team {
+        padding: 270px 0 100px 0;
+        .tc h6, .p h6 {
+            position: static;
+        }
+    }
+}
+// end media query from 0 to 991px
 
 // start media query from 0 to 768px
 @media (max-width: 768px) {
