@@ -29,22 +29,27 @@
 
 // start media query from 0 to 991px
 @media (max-width: 991px) {
+    // start section team
     .team {
         padding: 270px 0 100px 0;
         .tc h6, .p h6 {
             position: static;
         }
     }
+    // end section team
+
+    // start section type project
     .type_project .box_project, .type_project .box_express  {
         margin: 0 10px;
         padding: 30px 10px;
     }
+    // end section type project
 }
 // end media query from 0 to 991px
 
 // start media query from 0 to 768px
 @media (max-width: 768px) {
-
+    // start section .our-work
     .our-work .box_list ul {
             width: 100%;
             padding: 80px !important;
@@ -67,6 +72,9 @@
             position: static;
         }
     }
+    // end section .our-work
+
+    // start section team
     .team {
         padding: 530px 0 100px 0;
         .career h2 {
@@ -78,13 +86,16 @@
             }
         }
     }
+    // end section team
 }
 // end media query from 0 to 768px
 
 // start media query from 0 to 480px
 @media (max-width: 480px) {
+    // start section type project
     .type_project .contact .box_contact .box_plan {
         display: block;
     }
+    // end section type project
 }
 // end media query from 0 to 480px

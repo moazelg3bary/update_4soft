@@ -31,33 +31,50 @@ $(document).ready(function() {
 
   // func toggle class & text
   $('.box_project').on('click', function () {
+
     $('.box_project').addClass('active');
+
     $('.box_express').removeClass('active');
+
     $('.box_project button').html('choose me');
-  });     
+  });
+
   $('.box_express').on('click', function () {
+
     $('.box_express').addClass('active');
+
     $('.box_project').removeClass('active');
+
     $('.box_project button').html('get started');
   }); 
 
   //func toggle class 5 style
   $('.type_project .box_project button').on('click', function () {
+
     $('.over-lay').css('display', 'block')
+
     $('.contact').css('display', 'block')
+
     $('.type_project .contact .box_contact .box_plan .m_box_project').addClass('active')
+
     $('.type_project .contact .box_contact .box_plan .m_box_express').removeClass('active')
   });
   $('.type_project .box_express button').on('click', function () {
+
     $('.over-lay').css('display', 'block')
+
     $('.contact').css('display', 'block')
+
     $('.type_project .contact .box_contact .box_plan .m_box_express').addClass('active')
+
     $('.type_project .contact .box_contact .box_plan .m_box_project').removeClass('active')
   });
 
   // func run when click el has display none
   $('.over-lay').on('click', function () {
+
     $('.contact').css('display', 'none')
+    
     $('.over-lay').css('display', 'none')
   });
 })
