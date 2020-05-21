@@ -35,6 +35,10 @@
             position: static;
         }
     }
+    .type_project .box_project, .type_project .box_express  {
+        margin: 0 10px;
+        padding: 30px 10px;
+    }
 }
 // end media query from 0 to 991px
 
@@ -76,3 +80,11 @@
     }
 }
 // end media query from 0 to 768px
+
+// start media query from 0 to 480px
+@media (max-width: 480px) {
+    .type_project .contact .box_contact .box_plan {
+        display: block;
+    }
+}
+// end media query from 0 to 480px

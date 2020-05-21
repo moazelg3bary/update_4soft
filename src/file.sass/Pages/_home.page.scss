@@ -301,3 +301,160 @@
     }
 }
 // end team
+
+// start section type project
+.type_project {
+    // use var sass
+    padding: $p-y;
+    background: url("../../../dist/image/background_4.jpg");
+    background-size: cover;     
+    h1 {
+        padding: 30px 0;
+        margin-bottom: 0;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .box_project, .box_express {
+        margin: 0 50px;
+        cursor: pointer;
+        text-align: center;
+        padding: 30px 40px;
+        // use var sass
+        text-transform: $text-upper;
+        background-color: transparent;        
+        border: 1px solid rgba(61, 127, 156, 0.19);
+        // use mixin sass
+        @include browser(border-radius, 8px, o ms moz webkit);
+        .box_list_1 {
+            button::after {
+                content: 'choose me';
+            }
+        }
+        &.active {
+            border: none;
+            background: #fff;
+            // use mixin sass
+            @include browser(box-shadow, 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important, o ms moz webkit);
+            .box_list_1 {
+                display: none;
+            }
+            .box_list_2 {
+                display: block;
+                button::after {
+                    content: 'get started';
+                }                
+            }
+        }
+        a {
+            display: block;
+            padding: 0 20px;
+            font-weight: 500;
+            text-decoration: none;
+            color: rgb(0, 82, 127);
+            text-transform: capitalize;
+        }
+        ul {
+            text-align: left;
+            display: inline-block;
+            text-transform: capitalize;
+        }
+        button {
+            border: 0;
+            color: #fff;
+            display: block;
+            font-weight: 500;
+            padding: 13px 40px;
+            margin: 30px auto 0 auto;  
+            // use var sass          
+            text-transform: $text-upper;
+            // use mixin sass
+            @include browser(border-radius, 25px, o ms moz webkit);
+        }
+    }
+    .box_express {
+        a {
+            color: rgb(253, 108, 174);
+        }
+        span {
+            font-weight: 900;
+            font-size: xx-large;
+            color: rgba(251, 140, 110, 0.35);      
+        }
+        .box_list_1 {
+            button {
+                background-image: -webkit-linear-gradient(left, rgb(253, 108, 174) 0%, rgb(251, 140, 110) 100%);
+            }
+        }
+        .box_list_2 {
+            display: none;
+            button {
+                background-image: -webkit-linear-gradient(left, rgb(253, 108, 174) 0%, rgb(251, 140, 110) 100%);
+
+            }            
+            
+        }
+    }
+    .contact {
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        display: none;
+        z-index: 11000;
+        position: absolute;
+        background: #fff;
+        // use mixin sass
+        @include browser(border-radius, 10px, o ms moz webkit);
+        @include browser(transform, translate(-50%, -50%), o ms moz webkit);
+        .box_contact {
+            padding: 45px 10px;
+            h4 {
+                text-align: center;
+            }
+            .box_plan {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                .m_box_project, .m_box_express {
+                    padding: 15px 0;
+                    margin: 15px 20px;
+                    border: 1px solid rgba(61, 127, 156, 0.19);
+                    @include browser(border-radius, 10px, o ms moz webkit);
+                    &.active {
+                        background-color: rgba(203, 234, 242, 0.3);
+                        h6 i {
+                            color: rgb(253, 108, 174);
+                        }
+                    }
+                    h6 {
+                        font-weight: 700;
+                        text-align: center;
+                        i {
+                            margin: 0 5px;
+                            font-size: larger;
+                        }
+                    }
+                    span {
+                        display: block;
+                        padding: 10px 30px;
+                        text-align: center;
+                        a {
+                            color: #000;
+                            font-weight: 700;                        
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            form .form-group input {
+                // use mixin sass
+                @include browser(border-radius, 50px, o ms moz webkit);
+            }
+            form .form-group textarea {
+                resize: none;
+                // use mixin sass
+                @include browser(border-radius, 20px, o ms moz webkit);
+            }            
+        }   
+    }
+}
+// end section type project

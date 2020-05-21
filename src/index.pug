@@ -469,6 +469,85 @@ html(lang = 'en')
                 span: img(src="../image/p.svg", alt="alt")
                 h6 Product Hunt 
       // end section  team
+      |
+      |
+      // start section type project
+      section.type_project
+        .container
+          .row.position-relative
+            .col-sm-12
+              h1 WHAT TYPE OF PROJECT WORKS BEST FOR YOU?
+            .col-sm-12.col-md-6.my-5.position-relative
+              .box_project.active
+                h4.my-4 AGILE PROJECT
+                a(href="").mb-4 For complex projects with full customization and unique design
+                .box_list_0
+                  ul
+                    li Flexible development process
+                    li Fixed price billing
+                    li Delivered in 3-5 weeks
+                    li Dedicated Project Manager
+                    li Pay by milestone
+                  button.btn.bg-btn choose me
+            .col-sm-12.col-md-6.my-5.position-relative
+              .box_express
+                h4.my-3 10-DAY EXPRESS
+                a(href="").mb-3 Fastest time to market for only
+                span $7500
+                .box_list_1
+                  ul
+                    li Minimum Viable Product. 
+                    li 10 day development cycle.
+                    li Dedicated Project Manager.
+                    li Streamlined Process
+                    li fixed rate. 
+                  button.btn.bg-btn
+                .box_list_2
+                  ul
+                    li Minimum Viable Product. 
+                    li 10 day development cycle.
+                    li Low flat rate. 
+                    li Dedicated Project Manager.
+                    li Streamlined Process
+                  button.btn.bg-btn
+            .col-sm-12.col-md-6.mx-auto.shadow.contact
+              .box_contact
+                h4 LET'S BUILD SOMETHING AWESOME
+                .box_plan
+                  .m_box_project.active
+                    h6
+                      i.fas.fa-check
+                      | AGILE PROJECT
+                    span Full flexibility for complex projects with per hour billing
+                  .m_box_express
+                    h6
+                      i.fas.fa-check
+                      | 10 DAY EXPRESS
+                    span Fastest time to market for only #[a(href="") $7500]
+                form
+                  .form-row
+                    div(class="form-group col-md-6 mt-3")
+                      input(type="text" class="form-control" placeholder="First Name")
+                    div(class="form-group col-md-6 mt-3")
+                      input(type="text" class="form-control" placeholder="Last Name")
+                    div(class="form-group col-md-12")
+                      input(type="email" class="form-control" placeholder="What's your email?")
+                    div(class="form-group col-md-12")
+                      textarea(class="form-control" name="", cols="30", rows="10" placeholder="Please provide some details").w-100
+                    div(class="form-group col-md-12 m-0")
+                      div(class="input-group mb-3")
+                        .input-group-prepend
+                          .custom-file
+                           input(type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01")
+                          label(class="custom-file-label" for="inputGroupFile01") Choose file
+                  .form-group.px-4.text-center
+                    .form-check
+                      input(class="form-check-input" type="checkbox")
+                      label(class="form-check-label" for="gridCheck"): span#gridCheck Sign up to receive occasional tips about building apps without code
+                  div(class="form-group col-sm-4 d-block mx-auto")
+                    input(type="submit" class="form-control bg-btn text-white text-uppercase" placeholder="What's your email?")
+      // end section type project
+    .over-lay
     block script-all
       script(src = '../file.js/popper.js')
       script(src = '../file.js/jquery-3.3.1.min.js')

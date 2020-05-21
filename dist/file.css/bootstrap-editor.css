@@ -53,3 +53,12 @@
     width: auto;
 }
 /* end edit carousel */
+
+/* .custom-file-label::after */
+.custom-file-label::after {
+    width: 100%;
+    border: none;
+    text-align: center;
+    color: rgb(0, 82, 127);
+    background-color: #fff;
+}
